@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.display-none{
+    @apply hidden
+}
+
+.navbar-fixed {
+    @apply fixed backdrop-blur-lg bg-opacity-5 border-b-[1px] border-slate-700 z-[99];
+}
